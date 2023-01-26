@@ -23,7 +23,7 @@ main {
 }
 section#login {
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -41,4 +41,10 @@ div#img {
 section#login div#formulario {
     padding: 10px;
     display: block;
+}
+div#formulario h1 {
+    text-align: center;
+}
+div#formulario p {
+    font-size: 0.8em;
 }
