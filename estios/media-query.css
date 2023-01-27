@@ -6,6 +6,7 @@
     }
     section#login {
         width: 70vw;
+        height: 290px;
     }
     div#img {
         float: left;
@@ -19,6 +20,9 @@
     div#formulario p {
         font-size: 1em;
     }
+    .campo input {
+        transform: translateY(-12px);
+    }
 }
 @media screen and (min-width: 992px) {
     body {
@@ -26,6 +30,7 @@
     }
     section#login {
         width: 900px;
+        height: 330px;
     }
     div#img {
         float: right;
@@ -41,5 +46,9 @@
     }
     div#formulario p {
         font-size: 1.1em;
+        margin: 10px 0px;
+    }
+    .campo input {
+        transform: translateY(-12px);
     }
 }

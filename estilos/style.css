@@ -90,7 +90,27 @@ input[type=submit]:hover {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
+}
+.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 form label {
     display: none;
+}
+.campo input {
+    background-color: #49a09d;
+    font-size: 1em;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
+}
+.campo input:focus-within {
+    background-color: white;
 }
